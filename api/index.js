@@ -21,7 +21,7 @@ const TOKEN_SECRET_KEY = process.env.TOKEN_SECRET_KEY;
 app.use(
   cors({
     credentials: true,
-    origin: `http://localhost:${PORT}`,
+    origin: `https://blog-app-api2.vercel.app/`,
   })
 );
 app.use(express.json());
