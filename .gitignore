@@ -56,7 +56,6 @@ dist
 
 # Gatsby files (if used)
 .cache/
-public/
 
 # Vue-cli build output (if used)
 dist/

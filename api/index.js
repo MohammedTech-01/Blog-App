@@ -14,7 +14,7 @@ const fs = require("fs");
 const app = express();
 
 // Environment variables
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
 const MONGODB_URL = process.env.MONGODB_URL;
 const TOKEN_SECRET_KEY = process.env.TOKEN_SECRET_KEY;
 
